@@ -1,0 +1,78 @@
+/* for sarching which font is use in the site (whatfont) 
+for choosing font google fonts is use*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;900&family=Poppins:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+
+.main{
+    background-image:url("assests/images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1200px , 100vw);
+    height: 90vh;
+    position: relative;
+}
+.main .box{
+    height: 90vh;
+    width:100%;
+    background-color: black;
+    opacity: 0.54;
+    position: absolute;
+    top:0;
+    
+}
+.main nav{
+    height: 62px;
+    display: flex;
+    max-width: 130vh;
+    margin: auto;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 10px;
+}
+nav img{
+    color: red;
+    width: 144px;
+    position: relative;
+    z-index: 10;
+  
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height:100%;
+    flex-direction: column;
+    position: relative;
+    padding:30px;
+    text-align: center;
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    
+}
+.hero> :nth-child(2){
+    font-weight: 500;
+    font-size: 24px;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
