@@ -18,7 +18,8 @@ body{
     background-image:url("assests/images/bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: max(1200px , 100vw);
+    background-size: max(1400px , 120vw);
+    /* background-size:cover; */
     height: 90vh;
     position: relative;
 }
@@ -57,11 +58,12 @@ nav button{
     align-items: center;
     color: white;
     justify-content: center;
-    height:100%;
+    height:calc(100% - 72px);
     flex-direction: column;
     position: relative;
-    padding:30px;
+    padding:0 30px;
     text-align: center;
+   
 }
 .hero> :first-child{
     font-weight: 900;
@@ -75,4 +77,141 @@ nav button{
 .hero> :nth-child(3){
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: 7px;
 }
+.separation{
+    height: 9px;
+    background-color: rgb(44, 43, 43);
+}
+.btn{
+    padding:9px 38px;
+    font-weight: bold;
+    background-color:white;
+    border-radius:5px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(252, 247, 247, 0.788);
+    color: white;
+    font-size: 15px;
+}
+.red-btn{
+    background-color: red;
+    color:white;
+    align-items: center;
+    border:none;
+    padding: 9px 23px;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    margin-top: 10px;
+}
+.main  input{
+    padding: 14px 100px 14px 14px;
+    font-size: 20px;
+    border-radius:5px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(252, 247, 247, 0.788);
+    color:white;
+
+}
+.lal-btn{
+    background-color: red;
+    color:white;
+    padding: 7px 24px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius:5px;
+    border:none;
+}
+.nav-btn{
+    display:flex;
+    gap: 10px;
+
+}  
+.first{
+    display:flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin:auto;
+    color:white;
+    align-items: center;
+    max-height:652px;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 35vw;
+    padding-top: 150px;
+    /* padding-left:200px ; */
+
+}
+.secimg video{
+    position: relative;
+    top: -327px;
+    right: -65px;
+    width: 26vw;
+    z-index: -10;
+}
+.text{
+    text-align:left;
+    
+}
+.text>:nth-child(1){
+    font-weight:900;
+    font-size: 48px;
+    font-family: 'Martel Sans', sans-serif;
+}
+.text>:nth-child(3){
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Martel Sans', sans-serif;
+}
+.faqbox:hover{
+    background-color: rgb(86, 84, 84);
+}
+.faqbox{
+    display: flex;
+    background-color: rgb(44, 43, 43);
+    padding:20px;
+    margin:10px 190px;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Martel Sans', sans-serif;
+    /* gap: 700px; */
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.faq>:nth-child(2){
+    gap:909px;
+}
+.faq>:nth-child(3){
+    gap:762px;
+}
+.faq>:nth-child(4){
+    gap:871px;
+}
+.faq>:nth-child(5){
+    gap:901px;
+}
+.faq>:nth-child(6){
+    gap:765px;
+}
+.faq>:nth-child(7){
+    gap:824px;
+}
+
+.faq h2{
+    color:white;
+    padding:60px 0 1px 0;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight:900;
+    font-size: 48px;
+    text-align: center;
+    
+}
+
