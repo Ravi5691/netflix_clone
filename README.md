@@ -1,5 +1,5 @@
 
-# Profile Website Clone Project
+# Website Clone Project
 
 ## Overview:
 This project is a clone of my personal profile website, aiming to replicate its functionality and design for learning and showcasing purposes.
@@ -25,7 +25,7 @@ This project is a clone of my personal profile website, aiming to replicate its 
 - Use developer tools to inspect elements and compare the structure and styling to the original website.
 
 ## Contributors:
-- [Your Name] (@YourGitHubUsername)
+- Ravinder Singh Bisht (@YourGitHubUsername)
 
 ## License:
 This project is licensed under the [license name]. See the `LICENSE` file for details.
