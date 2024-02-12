@@ -2,7 +2,7 @@
 # Website Clone Project
 
 ## Overview:
-This project is a clone of my personal profile website, aiming to replicate its functionality and design for learning and showcasing purposes.
+This project is a clone of famous website, aiming to replicate its functionality and design for learning and showcasing purposes.
 
 ## Features:
 - Homepage: Replicates the layout and design of my original profile website's homepage.
@@ -14,7 +14,6 @@ This project is a clone of my personal profile website, aiming to replicate its 
 - HTML/CSS: For structuring and styling the website.
 - JavaScript: For adding interactivity and dynamic elements.
 - Bootstrap: Utilized for enhancing layout and responsiveness.
-- [Any additional technologies or frameworks used]
 
 ## Installation:
 1. Clone this repository to your local machine.
@@ -25,11 +24,7 @@ This project is a clone of my personal profile website, aiming to replicate its 
 - Use developer tools to inspect elements and compare the structure and styling to the original website.
 
 ## Contributors:
-- Ravinder Singh Bisht (@YourGitHubUsername)
+- Ravinder Singh Bisht (@Ravi5691)
 
 ## License:
 This project is licensed under the [license name]. See the `LICENSE` file for details.
-
-## Acknowledgements:
-- Special thanks to myself for providing inspiration and reference material.
-- Thanks to [any other acknowledgments]. 
