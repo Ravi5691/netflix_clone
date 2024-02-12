@@ -27,4 +27,4 @@ This project is a clone of famous website, aiming to replicate its functionality
 - Ravinder Singh Bisht (@Ravi5691)
 
 ## License:
-This project is licensed under the [license name]. See the `LICENSE` file for details.
+This project is licensed under the MIT . See the `LICENSE` file for details.
