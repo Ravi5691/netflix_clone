@@ -24,10 +24,10 @@ body{
     position: relative;
 }
 .main .box{
-    height: 90vh;
+    height:90vh;
     width:100%;
     background-color: black;
-    opacity: 0.54;
+    opacity: 0.60;
     position: absolute;
     top:0;
     
@@ -39,13 +39,14 @@ body{
     margin: auto;
    justify-content: space-between;
    align-items: center;
-   padding-top: 10px;
+   padding-top:10px;
 }
 nav img{
     color: red;
-    width: 144px;
+    width: 150px;
     position: relative;
     z-index: 10;
+    padding:20px;
   
 }
 nav button{
@@ -148,6 +149,7 @@ nav button{
     /* padding-left:200px ; */
 
 }
+
 .secimg video{
     position: relative;
     top: -327px;
@@ -168,6 +170,18 @@ nav button{
     font-weight: 400;
     font-size: 24px;
     font-family: 'Martel Sans', sans-serif;
+}
+section.first.fourth img{
+    padding: 100px 0;
+}
+section.first.third img{
+    padding-top: 500px;
+    padding-bottom: 250px;
+}
+section.first.third video{
+    top:-639px;
+    width: 22vw;
+    left:100px;
 }
 .faqbox:hover{
     background-color: rgb(86, 84, 84);
@@ -212,6 +226,62 @@ nav button{
     font-weight:900;
     font-size: 48px;
     text-align: center;
-    
 }
 
+.faq p{
+    color:white;
+    padding:60px 0 1px 0;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight:400;
+    font-size: 20px;
+    text-align: center;
+}
+.faq input{
+    padding: 14px 100px 14px 14px;
+    font-size: 20px;
+    border-radius:5px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(252, 247, 247, 0.788);
+    color:white;
+    margin-bottom: 80px;
+}
+.faq .lal-btn{
+    background-color: red;
+    color:white;
+    padding: 7px 24px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius:5px;
+    border:none;
+    margin-bottom: 80px;
+}
+footer{
+    color:white;
+    max-width: 60vw;
+    margin:auto;
+    padding: 50px 0;
+    font-family: 'Martel Sans', sans-serif;
+   
+}
+footer div {
+    margin: 8px 0 1px 0;
+    
+}
+footer div a {
+    color:white;
+}
+.footer{
+    display:grid;
+    grid-template-columns:2fr 2fr 2fr 2fr;
+    color:white;
+   
+}
+.footer a {
+    font-size: 14px;
+    color:white;
+}
+.footer-item{
+    display:flex;
+    flex-direction: column;
+    gap:14px;
+}
